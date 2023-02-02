@@ -1,0 +1,247 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+body section#title .container-fluid{
+    padding: 3% 15%;
+}
+
+body .row .col-md-12.col-lg-6 h1{
+    font-family: "Montserrat", serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #ffffff;
+    /* padding-top: 20%; */
+}
+
+
+
+/* navigation bar */
+
+body section#title div.container-fluid nav{
+    padding-bottom: 2rem;
+}
+
+body section#title div.container-fluid nav a.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+body section#title div.container-fluid nav div ul.navbar-nav .nav-item{
+    padding: 0 18px;
+}
+
+body section#title div.container-fluid nav div ul.navbar-nav .nav-item .nav-link{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+
+
+/* title section  */
+/* body section#title div.row div.banner-text-div{
+    padding-bottom: 5%;
+    
+} */
+
+
+
+
+/* buttons */
+body section#title div.container-fluid div.row button.download-button{
+    margin: 5% 3% 2% 0;
+}
+
+
+/* images */
+body section#title div.container-fluid div.row img.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    
+}
+
+ body section#title div.container-fluid div.row .title-image-div{
+    position: relative;
+}
+
+
+
+
+
+/* features section */
+body section#features{
+    padding: 7% 2%;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+}
+
+body section#features p{
+    width: 70%;
+    margin: auto;
+    color: #8f8f8f;
+}
+
+body section#features h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+body section#features i{
+    color: #ef8172;
+    font-size: 4.5rem;
+    padding-bottom: 1rem;
+}
+
+body section#features i:hover{
+    color: #ff4c68;
+}
+
+
+
+/* testimonials section */
+body section#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+
+body section#testimonials h2{
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+body section#testimonials img.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+body section#testimonials .carousel-item{
+    padding: 7% 10%;
+}
+
+
+
+/* press section */
+body section#press{
+    /* padding: 7% 10%; */
+    padding-bottom: 3%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+body section#press img.press-logo{
+    width: 15%;
+    margin: 1.25rem 1.25rem 3.125rem;
+}
+
+
+/* pricing section  */
+body section#pricing {
+    padding: 7% 5%;
+    text-align: center;
+}
+
+
+body section#pricing div.card--deck{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+body section#pricing .card{
+    flex: 1;
+    margin: 1rem;
+    min-width: 15rem;
+}
+
+
+
+
+/* cta section  */
+body section#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 2%;
+}
+
+body section#cta h3{
+    font-weight: 900;
+    color: #fff;
+    margin: 0 auto 3%;
+    width: 45%;
+    font-size: 2rem;
+}
+
+body section#cta .cta-dowload-btn{
+    margin-left: 1%;
+}
+
+
+
+/* footer section */
+body footer#footer {
+    text-align: center;
+    padding: 3% 2%;
+}
+
+body footer#footer > div > a{
+    color: black;
+    font-size: 1.5rem;
+    margin: 0 0.5% 2% 0.5%;
+}
+
+body footer#footer > p{
+    margin-top: 1%;
+    color: #8f8f8f;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+/* media queries  */
+@media (max-width: 980px){
+
+    body section#title{
+        text-align: center;
+    }
+
+    body section#title div.container-fluid div.row img.title-image{
+        position: static;
+    }
+
+    body section#title div.container-fluid div.row img.title-image.title-image{
+        transform: rotate(0);
+    }
+
+    body section#features div.row > div{
+        margin: 1.5rem 0;
+    }
+
+    body section#features p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 426px){
+    body section#pricing div.card--deck > div{
+        display: none;
+    }
+}
+    
